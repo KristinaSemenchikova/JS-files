@@ -1,0 +1,35 @@
+body{
+  background: linear-gradient(45deg, rgb(12, 221, 176), rgb(163, 175, 228));
+       display:grid;
+       min-height: 400px;
+       min-width: 400px;
+       background-repeat: no-repeat;
+       color: white;
+       font-size: 30px;
+       font-family: Courier;
+      
+  }
+.calculator { 
+  display: grid;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 3;
+  text-align: center;
+  height: 200px;
+  width: 400px;
+  background-color: rgb(0, 119, 255);
+  border: 5px solid darkblue;
+}
+.opertion-block {
+  margin: 5px;
+  border-bottom: 2px solid darkblue;
+}
+.operation-buttons {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+ font-size: 13pt;
+ font-family: Courier;
+ background-color: rgb(255, 255, 255);
+}
