@@ -1,0 +1,30 @@
+body{
+      background: linear-gradient(45deg, rgb(245, 91, 150), rgb(163, 175, 228));
+       
+       background-repeat: no-repeat;
+       color: white;
+       font-size: 30px;
+       font-family: Courier;
+      
+  }
+ .images-slider {
+  display: flex;
+  justify-content: center;
+ }
+
+ .images-slider {
+  display: flex;
+  justify-content: center;
+ }
+
+
+.next {
+  float: right;
+}
+ button {
+  color:rgb(44, 2, 83);
+  font-size: 20px;
+  font-family: Courier;
+  background-color: cornsilk;
+} 
+
